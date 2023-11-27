@@ -8,10 +8,10 @@ function NavTabs() {
   return (
     <header className=" w-screen flex items-center justify-between border-b-[1px] px-5 ">
       <h1 className=" font-bold underline">MISHL </h1>
-      <p>(∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. *</p> 
+      <p></p> 
       
       {/* I want to turn this guy into a link eventually */}
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs ">
         <li className="nav-item  ">
           <Link
             to="/"
@@ -19,7 +19,7 @@ function NavTabs() {
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === "/" ? "nav-link active" : "nav-link"}
           >
-            Home
+            About
           </Link>
         </li>
         <li className="nav-item">
@@ -30,7 +30,7 @@ function NavTabs() {
               currentPage === "/About" ? "nav-link active" : "nav-link"
             }
           >
-            About
+            (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. *
           </Link>
         </li>
         <li className="nav-item">

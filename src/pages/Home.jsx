@@ -6,7 +6,7 @@ export default function Home() {
   return (
     
     <div className=" flex flex-col items-center justify-between p-5 ">
-      < Hello />
+      <h1>console.log(< Hello />)</h1>
       <ProfilePicture />
 
       {/* <p className="p-5">
@@ -21,7 +21,7 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p> */}
-      <h1 className="text-3xl font-bold p-5">{`</helloWorld>`}</h1>
+      {/* <h1 className="text-3xl font-bold p-5">{`</helloWorld>`}</h1> */}
     </div>
   );
 }
