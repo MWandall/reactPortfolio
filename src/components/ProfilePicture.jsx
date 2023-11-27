@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProfilePicture() {
   return (
-    <div>
+    <div className='p-2'>
         <img src="/miii.jpg" alt="profile picture" />
     </div>
   )

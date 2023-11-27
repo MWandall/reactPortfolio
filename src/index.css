@@ -17,6 +17,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+main{
+  background-color: #1E1B15;
+  color: #9E895F;
+}
+
+header {
+  background-color: #9E895F;
+  color: #1E1B15;
+}
+
+.nav-link {
+  color: #6C2029 !important;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -32,6 +45,16 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+ 
+}
+footer {
+  background-image: url('./assets/totoroFooter.png');
+  color: #9E895F;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  width: 100%;
+  display: flex;
+
 }
 
 h1 {
