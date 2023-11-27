@@ -11,7 +11,7 @@ export default function Hello () {
         2000,
         '<bonjourLeMonde>',
         2000,
-        `<Kon'nichiwaSekai>`,
+        `<kon'nichiwaSekai>`,
         2000
       ]}
       wrapper="span"
