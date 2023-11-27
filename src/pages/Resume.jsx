@@ -1,22 +1,142 @@
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
+      <aside className="flex flex-col text-right px-3 ">
+        <h3>Mitchell Wandall</h3>
+        <h4>email@email.com</h4>
+        <h4>555-555-5555</h4>
+      </aside>
+      <div className="flex flex-col">
+      <h1 className=" text-center">Resume</h1>
+
+      <h5>Objective:</h5>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+        Dynamic and versatile professional with a strong background in
+        bartending, fine dining cooking, and home remodeling, seeking a
+        challenging position as a Full Stack Web Developer to leverage newly
+        acquired skills and contribute to innovative projects.
       </p>
+
+      <h5>Education:</h5>
+      <p>
+        Full Stack Web Developer Program <br />
+        Coding Academy, City, State <br />
+        Completion Date
+      </p>
+      <ul className=" list-disc">
+        <li>
+          Acquired comprehensive skills in web development, utilizing modern
+          technologies and frameworks.
+        </li>
+        <li>
+          Developed proficiency in HTML, CSS, Git, JavaScript, Bootstrap, DOM
+          manipulation, APIs, JQuery, JSON, AJAX, Node.js, ES6, and
+          object-oriented programming.
+        </li>
+        <li>
+          Gained expertise in server-side development with Express, database
+          management with MySQL and Sequelize, and adopted the MVC paradigm.
+        </li>
+        <li>
+          Acquired testing skills, practiced Agile development methodologies,
+          and developed Progressive Web Apps.
+        </li>
+        <li>
+          Explored the MERN (MongoDB, Express, React, Node.js) stack and NoSQL
+          databases.
+        </li>
+        <li>
+          Strengthened computer science fundamentals to build a solid foundation
+          for problem-solving.
+        </li>
+      </ul>
+      <h5>Technical Skills:</h5>
+      <ul className=" list-disc">
+        <li>HTML/CSS/Git</li>
+        <li>JavaScript (ES6)</li>
+        <li>Bootstrap</li>
+        <li>APIs, AJAX</li>
+        <li>JQuery</li>
+        <li>JSON</li>
+        <li>Node.js (Express)</li>
+        <li>MySQL (Sequelize)</li>
+        <li>MVC Paradigm</li>
+        <li>Testing (Unit and Integration)</li>
+        <li>Agile Development</li>
+        <li>Progressive Web Apps</li>
+        <li>React</li>
+        <li>NoSQL (MongoDB)</li>
+        <li>MERN Stack</li>
+      </ul>
+
+      <h4>Professional Experience:</h4>
+      <h5>1. Bartender</h5>
+      <p>
+        XYZ Bar, City, State <br />
+        Dates of Employment
+      </p>
+      <ul className=" list-disc">
+        <li>
+          Provided exceptional customer service in a fast-paced environment,
+          ensuring customer satisfaction and repeat business.
+        </li>
+        <li>
+          Demonstrated strong multitasking abilities, managing customer orders,
+          maintaining cleanliness, and handling cash transactions efficiently.
+        </li>
+        <li>
+          Developed effective communication and interpersonal skills through
+          interactions with diverse clientele.
+        </li>
+      </ul>
+
+      <h5>3. Home Remodeler</h5>
+      <p>
+        Home Improvement Services, City, State <br />
+        Dates of Employment
+      </p>
+      <ul className=" list-disc">
+        <li>
+          Prepared high-quality dishes in accordance with restaurant standards,
+          emphasizing presentation and taste.
+        </li>
+        <li>
+          Collaborated with the culinary team to streamline kitchen operations
+          and enhance overall efficiency.
+        </li>
+        <li>
+          Adapted quickly to changing menus and seasonal ingredients, showcasing
+          adaptability in a dynamic kitchen environment.
+        </li>
+      </ul>
+      <h5>2. Fine Dining Cook</h5>
+      <p>
+        Gourmet Restaurant, City, State <br />
+        Dates of Employment
+      </p>
+      <ul className=" list-disc">
+        <li>
+          Executed various home remodeling projects, demonstrating proficiency
+          in carpentry, plumbing, and electrical work.
+        </li>
+        <li>
+          Coordinated with clients to understand their vision and deliver
+          personalized home improvement solutions.
+        </li>
+        <li>
+          Maintained a strong commitment to quality craftsmanship and attention
+          to detail in every project.
+        </li>
+      </ul>
+      <h5>Conclusion:</h5>
+      <p>
+        Combining a diverse professional background with a comprehensive
+        education in Full Stack Web Development, I am eager to bring my unique
+        skill set, adaptability, and passion for technology to a dynamic
+        development team. I am confident in my ability to contribute effectively
+        to innovative projects and thrive in a collaborative work environment.
+      </p>
+      </div>
     </div>
   );
 }

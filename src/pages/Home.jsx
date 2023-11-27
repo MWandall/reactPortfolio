@@ -1,12 +1,15 @@
 import ProfilePicture from "../components/ProfilePicture";
+import Hello from "../components/HelloAnimate";
+
+
 export default function Home() {
   return (
-
+    
     <div className=" flex flex-col items-center justify-between p-5 ">
-      <h1 className="text-3xl font-bold p-2">{`<helloWorld>`}</h1>
+      < Hello />
       <ProfilePicture />
 
-      <p className="p-5">
+      {/* <p className="p-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
         ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
@@ -17,8 +20,8 @@ export default function Home() {
         porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
-      </p>
-      <h1 className="text-3xl font-bold">{`</helloWorld>`}</h1>
+      </p> */}
+      <h1 className="text-3xl font-bold p-5">{`</helloWorld>`}</h1>
     </div>
   );
 }

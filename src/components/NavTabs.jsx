@@ -12,7 +12,7 @@ function NavTabs() {
       
       {/* I want to turn this guy into a link eventually */}
       <ul className="nav nav-tabs">
-        <li className="nav-item">
+        <li className="nav-item  ">
           <Link
             to="/"
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"

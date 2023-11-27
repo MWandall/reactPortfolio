@@ -17,22 +17,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-main{
+/* main{
   background-color: #1E1B15;
   color: #9E895F;
-}
+} */
 
-header {
+/* header {
   background-color: #9E895F;
   color: #1E1B15;
-}
+} */
+
 
 .nav-link {
-  color: #6C2029 !important;
+  color: teal !important;
 }
 a {
   font-weight: 500;
-  color: #646cff;
+  color: teal;
   text-decoration: inherit;
 }
 a:hover {

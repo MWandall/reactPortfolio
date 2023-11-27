@@ -1,22 +1,130 @@
+import { IoLogoGithub, IoDesktopOutline, IoEye } from "react-icons/io5";
+
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <h1 className="mb-5 text-center">Portfolio Page</h1>
+      <div className="flex justify-center  ">
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+          <img
+            className="object-contain "
+            src="/GigGuide.png"
+            alt="GigGuide screenshot"
+          />
+
+          <div className="flex justify-between">
+            <a
+              href="https://github.com/MWandall/concert-finder"
+              target="_blank"
+            >
+              <IoLogoGithub className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+            <a
+              href="https://kevinsmithseven.github.io/concert-finder/"
+              target="_blank"
+            >
+              <IoDesktopOutline className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+          </div>
+        </div>
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+          <img
+            className="object-contain "
+            src="/GameU.png"
+            alt="GigGuide screenshot"
+          />
+          <div className="flex justify-between">
+            <a href="https://github.com/MWandall/gameU" target="_blank">
+              <IoLogoGithub className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+            <a
+              href="https://limitless-mountain-58094-a782c55b0be7.herokuapp.com/"
+              target="_blank"
+            >
+              <IoDesktopOutline className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+          </div>
+        </div>
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+          <img
+            className="object-contain "
+            src="/JATE.png"
+            alt="GigGuide screenshot"
+          />
+          <div className="flex justify-between">
+            <a href="https://github.com/MWandall/pwaTextEditor" target="_blank">
+              <IoLogoGithub className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+            <a
+              href="https://quiet-reaches-59584-957246460e74.herokuapp.com/"
+              target="_blank"
+            >
+              <IoDesktopOutline className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+          </div>
+        </div>
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+          <img
+            className="object-contain "
+            src="/EarlyPortfolio.png"
+            alt="GigGuide screenshot"
+          />
+          <div className="flex justify-between">
+            <a
+              href="https://github.com/MWandall/portfolio
+"
+              target="_blank"
+            >
+              <IoLogoGithub className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+            <a href="https://mwandall.github.io/portfolio/" target="_blank">
+              <IoDesktopOutline className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+          </div>
+        </div>
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+          <img
+            className="object-contain "
+            src="/E-commerceBackend.png"
+            alt="GigGuide screenshot"
+          />
+          <div className="flex justify-between">
+            <a
+              href="https://github.com/MWandall/e-commerceBackEnd"
+              target="_blank"
+            >
+              <IoLogoGithub className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1Jmo46EbtmVVWI_YGmUcayLBgoncXWbpu/view"
+              target="_blank"
+            >
+              <IoEye className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+          </div>
+        </div>
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+          <img
+            className="object-contain "
+            src="/SocialNetworkApi.png"
+            alt="GigGuide screenshot"
+          />
+          <div className="flex justify-between">
+            <a
+              href="https://github.com/MWandall/socialNetworkAPI"
+              target="_blank"
+            >
+              <IoLogoGithub className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/19Eg94G54tOGbDNm4-JCB45SHi4LEeCm9/view"
+              target="_blank"
+            >
+              <IoEye className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
