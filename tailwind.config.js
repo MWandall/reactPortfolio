@@ -17,6 +17,7 @@ export default {
   // 'bubble-gum': '#ff77e9',
   // 'bermuda': '#78dcca',
   'footer': '#1E1B15',
+  'iconTan': '#9E895F'
 },
 
     extend: {},

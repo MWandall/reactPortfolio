@@ -71,8 +71,7 @@ export default function Portfolio() {
           />
           <div className="flex justify-between">
             <a
-              href="https://github.com/MWandall/portfolio
-"
+              href="https://github.com/MWandall/portfolio"
               target="_blank"
             >
               <IoLogoGithub className="  cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]" />

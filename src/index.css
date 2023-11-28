@@ -27,9 +27,16 @@
   color: #1E1B15;
 } */
 
+footer a {
+  color: #9E895F !important;
+}
+
+footer a:hover {
+color: teal !important;
+}
 
 .nav-link {
-  color: teal !important;
+  color: teal;
 }
 a {
   font-weight: 500;
@@ -50,7 +57,7 @@ body {
 }
 footer {
   background-image: url('./assets/totoroFooter.png');
-  color: #9E895F;
+  color: #9E895F ;
   /* background-repeat: no-repeat; */
   /* background-size: contain; */
   width: 100%;
