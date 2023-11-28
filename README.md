@@ -21,7 +21,7 @@
 If you would like to install my resume, navigate to the Resume tab and click the link in the top left.
 
 ## Usage
-
+[Live Site](https://scintillating-salmiakki-815a31.netlify.app/)
 ![portfolioScreenshot](src/assets/Screenshot.png)
 
 ## Credits
