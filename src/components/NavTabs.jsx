@@ -6,8 +6,8 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <header className=" w-screen flex items-center justify-between border-b-[1px] px-5 ">
-      <h1 className=" font-bold underline">MISHL </h1>
+    <header className=" w-screen flex flex-col md:flex-row items-center justify-between border-b-[1px] px-5 ">
+      <h1 className=" font-bold ">Mitchell Wandall </h1>
       <p></p> 
       
       {/* I want to turn this guy into a link eventually */}

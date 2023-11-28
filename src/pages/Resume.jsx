@@ -2,19 +2,23 @@ import { IoCloudDownload } from "react-icons/io5";
 export default function Resume() {
   return (
     <div>
-      <div className=" shadow-lg p-3 rounded-xl my-2 flex flex-col items-center w-[7rem] h-[7rem]">
-        <a href="/MitchellWandallResume2023.pdf" download="MitchellWandallResume"><IoCloudDownload className="cursor-pointer hover:scale-125 transition-all ease-in-out text-[40px]"/></a>
-        <p className="">Download Resume</p>
+      <div className="flex justify-between">
+      <a href="/MitchellWandallResume2023.pdf" download="MitchellWandallResume" className="cursor-pointer hover:scale-125 transition-all ease-in-out shadow-lg p-3 rounded-xl my-2 flex flex-col items-center w-[7rem] h-[7rem]">
+        <div className="text-[2rem]"> <IoCloudDownload className="cursor-pointer hover:scale-125 transition-all ease-in-out"/></div>
+       
+        <p className="text-center">Download Resume</p>
         
-        </div>
-      <aside className="flex flex-col text-right px-3 ">
+        
+        </a>
+      <aside className="flex flex-col text-right px-3 shadow-lg p-3 rounded-xl my-2 flex flex-col items-center">
         <h3>Mitchell Wandall</h3>
         <h4>email@email.com</h4>
         <h4>555-555-5555</h4>
       </aside>
-      <div className="flex flex-col">
-        <h1 className=" text-center">Resume</h1>
-        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+      </div>
+      <div className="flex flex-col items-center">
+        <h1 className="shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem] text-center">Resume</h1>
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem]">
           <h5>Objective:</h5>
           <p>
             Dynamic and versatile professional with a strong background in
@@ -24,7 +28,7 @@ export default function Resume() {
           </p>
         </div>
 
-        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem]">
           <h5>Education:</h5>
           <p>
             Full Stack Web Developer Program <br />
@@ -59,7 +63,7 @@ export default function Resume() {
             </li>
           </ul>
         </div>
-        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem]">
           <h5>Technical Skills:</h5>
           <ul className=" list-disc">
             <li>HTML/CSS/Git</li>
@@ -80,7 +84,7 @@ export default function Resume() {
           </ul>
         </div>
 
-        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem]">
           <h4>Professional Experience:</h4>
           <h5>1. Bartender</h5>
           <p>
@@ -103,7 +107,7 @@ export default function Resume() {
             </li>
           </ul>
         </div>
-        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem]">
           <h5>2. Fine Dining Cook</h5>
           <p>
             Gourmet Restaurant, City, State <br />
@@ -126,7 +130,7 @@ export default function Resume() {
           
         </div>
 
-        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem]">
           <h5>3. Home Remodeler</h5>
           <p>
             Home Improvement Services, City, State <br />
@@ -149,7 +153,7 @@ export default function Resume() {
 
         </div>
 
-        <div className=" shadow-lg p-10 rounded-xl my-2 flex flex-col justify-between">
+        <div className=" shadow-lg shadow-cyan-500/50 p-10 rounded-xl my-2 flex flex-col justify-between w-[50rem]">
           <h5>Conclusion:</h5>
           <p>
             Combining a diverse professional background with a comprehensive
